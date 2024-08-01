@@ -29,11 +29,17 @@ This project evaluates CVs for O-1A visa qualification using a FastAPI backend a
 
 ## Project Structure
 app.py: FastAPI application code, including endpoints for creating the database, querying, and evaluating CVs.
+
 create_database.py: Script for initializing and managing the Chroma vector store.
+
 get_embedding_function.py: Defines the embedding function used for document processing.
+
 loader.py: Script to send CV files to the FastAPI endpoint for evaluation.
+
 query_data.py: Handles querying the Chroma database for relevant document context.
+
 requirements.txt: List of dependencies required for the project.
+
 README.md: Project overview, setup instructions, and usage guidelines.
 
 ## API Endpoints
