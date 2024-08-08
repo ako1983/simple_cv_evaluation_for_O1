@@ -6,7 +6,8 @@ This project evaluates CVs for O-1A visa qualification using a FastAPI backend a
 
 1. Clone the repository:
     ```sh
-    git clone <repo_url>
+    git clone git clone https://github.com/ako1983/simple_cv_evaluation_for_O1/tree/implementing-RAG.git
+cd my_cv_evaluation_app
     cd my_cv_evaluation_app
     ```
 
