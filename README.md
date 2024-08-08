@@ -24,7 +24,7 @@ This project evaluates CVs for O-1A visa qualification using a FastAPI backend a
 
 4. Use the loader script to evaluate a CV:
     ```sh
-    python loader.py
+    python query_data.py " how do you get qualified for O1 Visa"
     ```
 
 ## Project Structure
