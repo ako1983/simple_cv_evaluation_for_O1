@@ -1,3 +1,4 @@
+llama-index
 fastapi
 uvicorn
 requests
