@@ -93,7 +93,6 @@ cv_data = [
                 "the high standards required for an O1 visa, as she lacks evidence of extraordinary ability or acclaim."
     }
 ]
-
 # Create the PDF documents
 for i, cv in enumerate(cv_data, start=1):
     pdf = PDF()
@@ -101,6 +100,5 @@ for i, cv in enumerate(cv_data, start=1):
     pdf.chapter_title(cv['title'])
     pdf.chapter_body(cv['body'])
     pdf.output(f"/mnt/data/fake_CV_{i}_for_test.pdf")
-
 # Create a ZIP archive of all the generated PDFs
 shutil.make_archive(output_directory, 'zip', output_directory)
