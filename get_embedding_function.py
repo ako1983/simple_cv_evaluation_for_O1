@@ -1,4 +1,5 @@
 # from langchain_community.embeddings.ollama import OllamaEmbeddings
+# or any other llm
 from langchain_openai import ChatOpenAI
 from langchain_community.embeddings import OpenAIEmbeddings
 
